@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/miguel-osuna/Robofriends-PWA/static/css/main.375431b4.chunk.css",
+    "main.js": "/miguel-osuna/Robofriends-PWA/static/js/main.2d8eb7ae.chunk.js",
+    "main.js.map": "/miguel-osuna/Robofriends-PWA/static/js/main.2d8eb7ae.chunk.js.map",
+    "runtime-main.js": "/miguel-osuna/Robofriends-PWA/static/js/runtime-main.5f6c5b04.js",
+    "runtime-main.js.map": "/miguel-osuna/Robofriends-PWA/static/js/runtime-main.5f6c5b04.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/miguel-osuna/Robofriends-PWA/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.3649d868.chunk.js": "/miguel-osuna/Robofriends-PWA/static/js/2.3649d868.chunk.js",
+    "static/js/2.3649d868.chunk.js.map": "/miguel-osuna/Robofriends-PWA/static/js/2.3649d868.chunk.js.map",
+    "index.html": "/miguel-osuna/Robofriends-PWA/index.html",
+    "precache-manifest.9f2ce76e7761de7fee90f28b54bf128c.js": "/miguel-osuna/Robofriends-PWA/precache-manifest.9f2ce76e7761de7fee90f28b54bf128c.js",
+    "service-worker.js": "/miguel-osuna/Robofriends-PWA/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/miguel-osuna/Robofriends-PWA/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.375431b4.chunk.css.map": "/miguel-osuna/Robofriends-PWA/static/css/main.375431b4.chunk.css.map",
+    "static/media/App.css": "/miguel-osuna/Robofriends-PWA/static/media/BelshawDonutRobot.d071190e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f6c5b04.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.3649d868.chunk.js",
+    "static/css/main.375431b4.chunk.css",
+    "static/js/main.2d8eb7ae.chunk.js"
+  ]
+}
