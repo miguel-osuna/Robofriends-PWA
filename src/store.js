@@ -7,10 +7,9 @@ import thunkMiddleware from "redux-thunk";
 // Reducers
 import { searchRobots, requestRobots } from "./Reducers/reducers";
 
-// const store = createStore(combineReducers(searchRobots), {});
 const store = createStore(
   combineReducers({ searchRobots, requestRobots }),
-  applyMiddleware(thunk, thunkMiddleware)
+  applyMiddleware(thunk, thunkMiddleware, logger)
 );
 
 export default store;

@@ -28,7 +28,7 @@ class CounterButton extends Component {
     const { updateCounter } = this;
     console.log("CounterButton");
     return (
-      <button color={this.props} onClick={updateCounter}>
+      <button color={this.props.color} onClick={updateCounter}>
         {" "}
         Count: {count}
       </button>

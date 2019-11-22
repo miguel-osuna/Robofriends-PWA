@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing CardList component with Enzyme 1`] = `
+<Fragment>
+  <div>
+    <Card
+      email="miguel@gmail.com"
+      id={1}
+      key="0"
+      name="Miguel"
+      username="miguel123"
+    />
+  </div>
+</Fragment>
+`;

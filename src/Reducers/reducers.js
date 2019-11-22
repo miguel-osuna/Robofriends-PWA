@@ -20,7 +20,7 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
 };
 
 const initialStateRobots = {
-  is_pending: false,
+  isPending: false,
   robots: [],
   error: ""
 };
@@ -28,13 +28,13 @@ const initialStateRobots = {
 export const requestRobots = (state = initialStateRobots, action = {}) => {
   switch (action.type) {
     case REQUEST_ROBOTS_PENDING:
-      state = { ...state, is_pending: true };
+      state = { ...state, isPending: true };
       break;
     case REQUEST_ROBOTS_SUCCESS:
-      state = { ...state, is_pending: false, robots: action.payload };
+      state = { ...state, isPending: false, robots: action.payload };
       break;
     case REQUEST_ROBOTS_FAILED:
-      state = { ...state, is_pending: false, error: action.payload };
+      state = { ...state, isPending: false, error: action.payload };
       break;
     default:
   }

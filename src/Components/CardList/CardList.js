@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Card from "./Card.js";
+import Card from "../Card/Card";
 
 // Destructuring of props = { robots }
 const CardList = ({ robots }) => {
@@ -8,9 +8,10 @@ const CardList = ({ robots }) => {
   return (
     <Fragment>
       <div>
-        {robots.map(user => {
+        {robots.map((user, i) => {
           return (
             <Card
+              key={i}
               id={user.id}
               name={user.name}
               email={user.email}

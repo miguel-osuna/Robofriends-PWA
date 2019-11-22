@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SearchBox component with Enzyme 1`] = `
+<Fragment>
+  <div
+    className="pa2"
+  >
+    <input
+      aria-label="Search Robots"
+      className="pa3 ba b--black bg-lightest-blue"
+      onChange={[Function]}
+      placeholder="Search a robot"
+      type="search"
+    />
+  </div>
+</Fragment>
+`;

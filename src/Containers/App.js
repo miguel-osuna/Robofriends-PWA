@@ -1,9 +1,5 @@
 import React, { Fragment, Component } from "react";
-import Header from "../Components/Header.js";
-import CardList from "../Components/CardList.js";
-import SearchBox from "../Components/SearchBox.js";
-import Scroll from "../Components/Scroll.js";
-import CounterButton from "../Components/CounterButton.js";
+import MainPage from "../Components/MainPage/MainPage.js";
 import "./App.css";
 
 import { connect } from "react-redux";
@@ -15,7 +11,7 @@ const mapStateToProps = state => {
   return {
     searchField: state.searchRobots.searchField,
     robots: state.requestRobots.robots,
-    is_pending: state.requestRobots.is_pending,
+    isPending: state.requestRobots.isPending,
     error: state.requestRobots.error
   };
 };
@@ -28,33 +24,10 @@ const mapDispatchToProps = dispatch => {
 };
 
 class App extends Component {
-  componentDidMount() {
-    this.props.onRequestRobots();
-  }
-
   render() {
-    // This state comes from store.js (redux)
-    const { searchField, onSearchChange, robots, is_pending } = this.props;
-
-    const filtered_robots = robots.filter(robot => {
-      return robot.name.toLowerCase().includes(searchField.toLowerCase());
-    });
-
-    // Changes the CardList of Robots Searched
-    return is_pending ? (
-      <div>
-        <h1 className="tc"> Loading, please wait</h1>
-      </div>
-    ) : (
+    return (
       <Fragment>
-        <div className="tc">
-          <Header />
-          <CounterButton color={"red"} />
-          <SearchBox searchChange={onSearchChange} />
-          <Scroll>
-            <CardList robots={filtered_robots} />
-          </Scroll>
-        </div>
+        <MainPage {...this.props} />
       </Fragment>
     );
   }

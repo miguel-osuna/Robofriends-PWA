@@ -9,7 +9,7 @@ class ErrorBoundary extends Component {
   }
 
   // Adding the new Hook Method
-  componentDidCatch(error, infor) {
+  componentDidCatch(error, info) {
     this.setState({ hasError: true });
   }
 

@@ -11,6 +11,7 @@ const SearchBox = ({ searchChange }) => {
           className="pa3 ba b--black bg-lightest-blue"
           type="search"
           placeholder="Search a robot"
+          aria-label="Search Robots"
         ></input>
       </div>
     </Fragment>

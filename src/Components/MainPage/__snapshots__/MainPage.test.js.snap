@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders MainPage without crashing 1`] = `
+<Fragment>
+  <div
+    className="tc"
+  >
+    <Header />
+    <CounterButton />
+    <SearchBox
+      searchChange={[MockFunction]}
+    />
+    <Scroll>
+      <CardList
+        robots={Array []}
+      />
+    </Scroll>
+  </div>
+</Fragment>
+`;
